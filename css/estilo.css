@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Inter" sans-serif;
+  background-color: red;  
+  background-image: url("../imagenes/fondoindexpaulina.png");
+  background-repeat: repeat;
+}
+
+
+header {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  width: 300px;
+}
+
+nav {
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.caja-blanca {
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 35px;
+  width: 90%;
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+
+
+h2 {
+  color: red;
+  text-align: center;
+}
+
+h3 {
+  color: red;
+}
+
+ul, ol {
+  padding-left: 25px;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.imagen-flan {
+  width: 220px;
+}
+
+footer {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+footer img {
+  width: 80px;
+  margin-bottom: 10px;
+}
